@@ -23,7 +23,7 @@ namespace iJetSolutions.SerasaDemo.Forms
         {
 
             var service = new br.org.spc.treina.consultaWebService();
-            service.Credentials = gerarCredencial("398504", "27102017");
+            service.Credentials = gerarCredencial("usuario", "senha");
             var list = service.listarProdutos().ToList();
         }
 
